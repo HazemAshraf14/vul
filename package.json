@@ -1,0 +1,43 @@
+{
+    "name": "twi-cloud-module-package",
+    "version": "1.0.0",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "jest --watchAll --verbose --runInBand --coverage"
+    },
+    "dependencies": {
+        "@fidm/x509": "^1.2.1",
+        "adm-zip": "^0.4.14",
+        "apn": "https://github.com/node-apn/node-apn.git#38a357ed0c153aad09c2857e48a710527e685bfc",
+        "bcryptjs": "^2.4.3",
+        "cbor": "^5.1.0",
+        "compression": "^1.7.4",
+        "cookie-parser": "^1.4.3",
+        "ec-key": "^0.0.2",
+        "ecdsa-sig-formatter": "^1.0.10",
+        "enum": "^2.5.0",
+        "express": "4.16.x",
+        "express-content-length-validator": "1.0.x",
+        "express-session": "1.15.x",
+        "hpp": "0.2.x",
+        "https": "1.0.0",
+        "jsonwebtoken": "8.2.1",
+        "mongoose": "^5.2.2",
+        "node-forge": "^0.10.0",
+        "nodejs-aes256": "1.0.x",
+        "openssl-nodejs": "^1.0.5",
+        "request": "2.85.x",
+        "request-promise": "^4.2.5",
+        "tmp": "^0.2.1",
+        "uuid": "^3.2.1",
+        "winston": "^3.1.0",
+        "x509": "^0.3.4",
+        "googleapis": "^100.0.0"
+    },
+    "devDependencies": {
+        "jest": "^24.9.0",
+        "nodemon": "^2.0.2",
+        "supertest": "^4.0.2"
+    }
+}
